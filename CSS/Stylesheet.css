@@ -106,6 +106,8 @@ a{
     padding-top:32px!important;
     padding-bottom:32px!important
 }
+.branel-container:after,.branel-container:before,.branel-panel:after,.branel-panel:before,.branel-row:after,.branel-row:before,.branel-row-padding:after,.branel-row-padding:before,
+.branel-display-container:hover .branel-display-hover{display:block}.branel-display-container:hover span.branel-display-hover{display:inline-block}.branel-display-hover{display:none}
 .branel-container,.branel-panel{padding:0.01em 16px}.branel-panel{margin-top:16px;margin-bottom:16px}
 .branel-padding-48{
     padding-top:48px!important;
