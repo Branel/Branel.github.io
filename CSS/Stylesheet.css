@@ -154,6 +154,13 @@ img{
     padding-bottom:48px!important
 }
 .branel-btn,
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
 .branel-button{
     border:none;
     display:inline-block;
