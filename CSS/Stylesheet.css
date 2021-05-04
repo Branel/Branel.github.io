@@ -161,6 +161,14 @@ a{
 a:link {
     text-decoration: none;
 }
+#logo {
+    display: inline-block;
+    margin: 15px; /* margin: 20px was off */
+    float: left;
+    height: 60px;
+    width: auto; /* correct proportions to specified height */
+    border-radius: 50%; /* makes it a circle */
+}
 
 a:visited {
     text-decoration: none;
