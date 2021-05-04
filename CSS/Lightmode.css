@@ -10,6 +10,10 @@ ul, li{
 	color:black;
 }
 
+a{
+	color:black;
+}
+
 p, span, small{
 	color: #888;
 }
