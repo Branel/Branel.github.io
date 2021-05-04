@@ -13,7 +13,7 @@
     }
 
 
-    /*
+    
     var setTheme = localStorage.getItem('theme')
     if (setTheme == null){
         swapStyles('light.css')
@@ -26,4 +26,4 @@
         document.getElementById('mystylesheet').href = sheet
         localStorage.setItem('theme', sheet)
     }
-    */
+    
