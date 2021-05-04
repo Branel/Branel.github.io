@@ -154,6 +154,10 @@ img{
     padding-bottom:48px!important
 }
 .branel-btn,
+
+a{
+	text-decoration: none;
+}
 a:link {
     text-decoration: none;
 }
