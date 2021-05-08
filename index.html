@@ -11,7 +11,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
 <link rel="shortcut icon" href="IMG/favicon.ico" type="image/x-icon">  
 <link id="mystylesheet" rel="stylesheet" type="text/css" href="CSS/Lightmode.css">
-<script type="text/javascript" src="Scripts/swapStyle.js"> </script>
 
 <head> 
     <style type="text/css">
@@ -24,11 +23,9 @@
         }
     </style>
 
-<!-- Most recent website update -->
+<!-- Scripts -->
     <script type="text/javascript" src="Scripts/lastUpdate.js"></script>
-    <button onclick="dateFunction()">Last time website was updated</button>
-    <p id="lastUpdate"></p>
-
+    <script type="text/javascript" src="Scripts/swapStyle.js"> </script>
 <!-- Styling-->
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Times New Roman", sans-serif}
@@ -36,10 +33,12 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Times New Roman", sans-serif}
 </head>
 <body class="branel-light-grey">
 
-<!-- Light/Dark Mode -->
+<!-- Buttons -->
 <div id="box">
 	<button class="btn btn-light" onclick="swapStyle('CSS/Lightmode.css')">Light Mode</button>
 	<button class="btn btn-dark" onclick="swapStyle('CSS/Darkmode.css')">Dark Mode</button>
+    <button onclick="dateFunction()">Last time website was updated</button>
+    <p id="lastUpdate"></p>
 </div>
 <!-- Page Container -->
 <div class="branel-content branel-margin-top" style="max-width:1400px;">
