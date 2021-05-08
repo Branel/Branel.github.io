@@ -46,3 +46,14 @@ hr{
 	margin: 20px;
 	background-color: #eaeaea;
 }
+
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color: white;
+    overflow: auto;
+}
+
+.navbar a {
+    color: black;
+}

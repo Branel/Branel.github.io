@@ -12,9 +12,22 @@
 <link rel="shortcut icon" href="IMG/favicon.ico" type="image/x-icon">  
 <link id="mystylesheet" rel="stylesheet" type="text/css" href="CSS/Lightmode.css">
 <script type="text/javascript" src="Scripts/swapStyle.js"> </script>
+<head> 
+    <style type="text/css">
+        .mobileShow {display: none;}
+    
+        /* Smartphone Portrait and Landscape */
+        @media only screen
+        and (min-device-width : 320px)
+        and (max-device-width : 480px){ 
+            .mobileShow {display: inline;}
+        }
+    </style>
+
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Times New Roman", sans-serif}
 </style>
+</head>
 <body class="branel-light-grey">
 	<div id="box">
 		<button class="btn btn-light" onclick="swapStyle('CSS/Lightmode.css')">Light Mode</button>
@@ -27,12 +40,18 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Times New Roman", sans-serif}
     <!-- Navigation Buttons-->
     <div class="branel-padding-32">
         <div class="branel-row branel-border">
-        <a href="index.html" class="branel-row-item branel-button">Home</a>
-        <a href="HTML/Portfolio.html" class="branel-row-item branel-button branel-light-grey">Portfolio</a>
-        <a href="HTML/CV.html" class="branel-row-item branel-button">Résumé</a>
-        <a href="HTML/About-me.html" class="branel-row-item branel-button branel-hide-small">About me</a>
-        <a href="en/index.html" class="branel-row-item branel-button branel-hide-small">English</a>
-        <a href="se/index.html" class="branel-row-item branel-button branel-hide-small">Swedish</a>
+            <div class="navbar">
+            <a href="index.html"class="branel-row-item branel-button"><span class="material-icons">home</span>Home</a>
+            <a href="HTML/Portfolio.html" class="branel-row-item branel-button branel-light-grey"><span class="material-icons">work</span>Portfolio</a>
+            <a href="HTML/CV.html" class="branel-row-item branel-button"><span class="material-icons">assignment_ind</span>Résumé</a>
+            <a href="HTML/About-me.html" class="branel-row-item branel-button branel-hide-small"><span class="material-icons">mood</span>About me</a>
+            <a href="en/index.html" class="branel-row-item branel-button branel-hide-small">English</a>
+            <a href="se/index.html" class="branel-row-item branel-button branel-hide-small">Swedish</a>
+        </div>
+
+        <div class="mobileShow">
+            <h1>TEXT OR IMAGE FOR MOBILE HERE</h1>
+            </div>
 
 <div id="div1"></div>
             </div>
@@ -45,50 +64,49 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Times New Roman", sans-serif}
         <h4>
         <a href="HTML/CV.html">TL;DR? Visit my Résumé</a>
         </h4>
-<div>  </div>
+<div> 
     <p>
-    My mastery within programming:<br>
-    C++ is my programming native tongue. I've read the most about it, been the most interested in it.<br>
-    I am comfortable with JavaScript as I have been using it for Minecraft custom development, mostly for my own personal use. <br>
-    I am comfortable with MySQL.<br>
-    I learned Python as a beginner and have intermediate experience, it is currently my least liked language.<br>
+        My mastery within programming:<br>
+        C++ is my programming native tongue. I've read the most about it, been the most interested in it.<br>
+        I am comfortable with JavaScript as I have been using it for Minecraft custom development, mostly for my own personal use. <br>
+        I am comfortable with MySQL.<br>
+        I learned Python as a beginner and have intermediate experience, it is currently my least liked language.
     </p>
-        <p>
+    <p>
         My proficiency outside of programming:<br>
         Swedish is my mother tongue, I have high level English speaking abilities. <br>
         I am creative, thoughtful, ambitious, dedicated,<br>
         I like having many things going on at once so that I can constantly shift my focus to keep my productivity high.<br>
-        I have experience repairing computers and phones, I did it on my own time as a hobby. I have rescued too many laptops from certain death.<br>
-        </p>
-            <p>
-            Why I learned programming:<br>
-            I always liked creating my own things, whenever I use something I always wonder how I would do things differently.
-            I have always been interested in programming and have had small presence in custom development, but I started taking it more serious 2021, by self teaching myself, reading books and considering to pursue a education within Computer Science.<br>
-            </p>
-                <p>
-                My favorite parts about programming:<br>
-                Learning new things!<br>
-                Testing/Debugging, resolving issues.<br>
-                Be apart of a team and working together to solve a tremendous task.<br>
-                </p>
-                    <p>
-                    Books I have read (and you should too!):<br>
-
-                    Development:<br>
-                    Programming Principles and Practice Using C++ by Bjarne Stroustrup.<br>
-                    CSS The Definitive Guide, 4th Edition by Eric A. Meyer, Estelle Weyl.<br>
-                    <br>
-                    Entertainment:<br>
-                    Game of Thrones<br>
-                    Never Let Me Go<br>
-                    The Hound of Baskerville
-                    </p>
-                        <p>
-                        My favorite games:<br>
-                        Counter-Strike<br>
-                        Minecraft<br>
-                        World of Warcraft<br>
-                        </p>
+        I have experience repairing computers and phones, I did it on my own time as a hobby. I have rescued too many laptops from certain death.
+    </p>
+    <p>
+        Why I learned programming:<br>
+        I always liked creating my own things, whenever I use something I always wonder how I would do things differently.
+        I have always been interested in programming and have had small presence in custom development, but I started taking it more serious 2021, by self teaching myself, reading books and considering to pursue a education within Computer Science.<br>
+    </p>
+    <p>
+        My favorite parts about programming:<br>
+        Learning new things!<br>
+        Testing/Debugging, resolving issues.<br>
+        Working as a team and working together to solve a tremendous task.
+    </p>
+    <p>
+        Books I have read (and you should too!):<br>
+        Development:<br>
+        Programming Principles and Practice Using C++ by Bjarne Stroustrup.<br>
+        CSS The Definitive Guide, 4th Edition by Eric A. Meyer, Estelle Weyl.<br>
+        Entertainment:<br>
+        Game of Thrones<br>
+        Never Let Me Go<br>
+        The Hound of Baskerville
+    </p>
+    <p>
+        My favorite games:<br>
+        Counter-Strike<br>
+        Minecraft<br>
+        World of Warcraft
+    </p>
+</div>
 
 <footer class=".branel-container branel-teal branel-center branel-margin-top">
 <a href="mailto:Emirpod02@gmail.com">Have any input about my website? Please feel free to tell me what you think of it.</a><br>
