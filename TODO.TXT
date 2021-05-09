@@ -1,1 +1,2 @@
 Add a better font for navigation menu.
+Add  a mobile style
