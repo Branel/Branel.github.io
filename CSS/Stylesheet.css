@@ -3,125 +3,33 @@
     margin-top: -300px;
 }
 
+.bottomText{
+    bottom: 0%;
+    text-align: center;
+    margin-left: 700px;
+    position:fixed;
+}
 .text{
-    margin-left: 10px;
+    margin-left: 700px;
 }
 
 html{
     box-sizing:border-box
-
-
-
+}
+.navbar a {
+    float: top;
+    text-align: center;
+    padding: 8px;
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a:hover {
+    background-color: royalblue;
 }
 hr{
     border:0;border-top:1px solid #eee;margin:20px 0
 }
-.branel-container:after,.branel-container:before,.branel-panel:after,.branel-panel:before,.branel-row:after,.branel-row:before,.branel-row-padding:after,.branel-row-padding:before,
-.branel-cell-row:before,.branel-cell-row:after,.branel-clear:after,.branel-clear:before,.branel-bar:before,.branel-bar:after{content:"";display:table;clear:both}
-.branel-col,.branel-half,.branel-third,.branel-twothird,.branel-threequarter,.branel-quarter{
-    float:left;width:100%
-}
-.branel-col.m5{
-    width:41.66666%
-}
-.branel-col.m6,.branel-half{
-    width:49.99999%
-}
-.branel-col.m7{
-    width:58.33333%}
-.branel-col.m8,.branel-twothird{
-    width:66.66666%
-}
-.branel-content,.branel-code{
-    margin-left:auto;margin-right:auto
-}
-.branel-content{
-    max-width:980px
-}
-.branel-code{
-    max-width:1140px
-}
-.branel-row-padding,.branel-row-padding>.branel-half,.branel-row-padding>.branel-third,.branel-row-padding>.branel-twothird,.branel-row-padding>.branel-threequarter,.branel-row-padding>.branel-quarter,.branel-row-padding>.branel-col{padding:0 8px}
-.branel-container,
-.branel-panel{
-    padding:0.01em 16px
-}
-.branel-panel{
-    margin-top:16px;margin-bottom:16px
-}
-.branel-code,
-.branel-codespan{
-    font-family:Consolas,"courier new";font-size:16px
-}
-.branel-tiny{
-    font-size:10px!important
-}
-.branel-small{
-    font-size:12px!important
-}.branel-medium{
-    font-size:15px!important
-}
-.branel-large{
-    font-size:25px!important
-}
-.branel-left-align{
-    text-align:left!important
-}
-.branel-right-align{
-    text-align:right!important
-}
-.branel-justify{
-    text-align:justify!important}
-.branel-center{
-        text-align:center!important
-    }
-.branel-border-0{
-    border:0!important
-}
-
-.branel-margin{
-    margin:16px!important
-}
-.branel-margin-top{
-    margin-top:16px!important
-}
-.branel-margin-bottom{
-    margin-bottom:16px!important
-}
-.branel-margin-left{
-    margin-left:16px!important
-}
-.branel-margin-right{
-    margin-right:16px!important
-}
-.branel-padding-16{
-    padding-top:16px!important;
-    padding-bottom:16px!important
-}
-.branel-padding-24{
-    padding-top:24px!important;
-    padding-bottom:24px!important
-}
-.branel-image{
-    max-width:100%;
-    height:auto
-}
-img{
-    vertical-align:middle
-}
-.branel-padding-32{
-    padding-top:32px!important;
-    padding-bottom:32px!important
-}
-.branel-container:after,.branel-container:before,.branel-panel:after,.branel-panel:before,.branel-row:after,.branel-row:before,.branel-row-padding:after,.branel-row-padding:before,
-.branel-display-container:hover .branel-display-hover{display:block}.branel-display-container:hover span.branel-display-hover{display:inline-block}.branel-display-hover{display:none}
-.branel-container,.branel-panel{padding:0.01em 16px}
-.branel-padding-48{
-    padding-top:48px!important;
-    padding-bottom:48px!important
-}
-.branel-btn,
-
 a{
 	text-decoration: none;
 }
@@ -139,123 +47,4 @@ a:link {
 
 a:visited {
     text-decoration: none;
-}
-
-  /* Navbar links */
-.navbar a {
-    float: top;
-    text-align: center;
-    padding: 8px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-  /* Navbar links on mouse-over */
-.navbar a:hover {
-    background-color: #000;
-}
-
-  /* Current/active navbar link */
-.active {
-    background-color: #04AA6D;
-}
-.branel-button{
-    border:none;
-    display:inline-block;
-    padding:8px 16px;
-    vertical-align:middle;
-    overflow:hidden;
-    text-decoration:none;
-    background-color:inherit;
-    text-align:center;
-    cursor:pointer;
-    white-space:nowrap}
-@media (min-width:601px){.branel-col.m1{width:8.33333%}.branel-col.m2{width:16.66666%}.branel-col.m3,.branel-quarter{width:24.99999%}.branel-col.m4,.branel-third{width:33.33333%}
-
-.branel-round-small{border-radius:2px}.branel-round,.branel-round-medium{border-radius:4px}.branel-round-large{border-radius:8px}.branel-round-xlarge{border-radius:16px}.branel-round-xxlarge{border-radius:32px}
-}
-
-/* The switch - the box around the slider */
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
-  }
-  
-  /* Hide default HTML checkbox */
-  .switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  
-  /* The slider */
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  input:checked + .slider {
-    background-color: #2196F3;
-  }
-  
-  input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
-  }
-  
-  input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-  }
-  
-  /* Rounded sliders */
-  .slider.round {
-    border-radius: 34px;
-  }
-  
-  .slider.round:before {
-    border-radius: 50%;
-  }
-
-.animation-bar-1{
-    position: relative;
-    display: block;
-    padding: 5px;
-    font-size: 16x;
-    line-height: 16px;
-    border-radius: 30px;
-    background: rgba(65, 105, 225);
-    box-shadow: inset 0 1px 2px rgba(0,0,0,0.25), 0 1px rgba(255,255,255,0.1);
-}
-    .animation-bar-1 span {
-        position: relative;
-        display: inline-block;
-        vertical-align: middle;
-        height: 20px;
-        border-radius: 10px 0 0 10px;
-        overflow: hidden;
-        background-color: #f59682;
-        background-size: 100%;
-    
 }
